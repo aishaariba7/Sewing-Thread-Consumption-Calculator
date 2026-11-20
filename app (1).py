@@ -24,7 +24,9 @@ st.write(
     "and number of cones."
 )
 
-st.info(25TE062)
+st.info(
+    25TE062
+)
 
 st.header("1. Production details")
 stitch_type = st.selectbox("Select stitch type", list(STITCH_FACTORS.keys()))
