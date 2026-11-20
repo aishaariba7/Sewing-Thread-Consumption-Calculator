@@ -25,7 +25,7 @@ st.write(
 )
 
 st.info(
-    25TE062
+    25te062
 )
 
 st.header("1. Production details")
