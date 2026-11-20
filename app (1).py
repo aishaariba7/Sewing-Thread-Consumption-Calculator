@@ -24,12 +24,7 @@ st.write(
     "and number of cones."
 )
 
-st.info(
-    "Educational estimate: preset stitch factors are illustrative starting "
-    "values, not official industry standards. For reliable production planning, "
-    "use a factor measured from a sample seam or supplied by your instructor "
-    "or production unit."
-)
+st.info(25TE062)
 
 st.header("1. Production details")
 stitch_type = st.selectbox("Select stitch type", list(STITCH_FACTORS.keys()))
